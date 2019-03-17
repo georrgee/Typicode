@@ -8,6 +8,7 @@ target 'TakeHome' do
   # Pods for TakeHome
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'AlamofireImage'
 
 
 end

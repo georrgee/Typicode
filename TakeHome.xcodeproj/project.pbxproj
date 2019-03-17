@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361B5EEF223D620D0055C3D9 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EEE223D620D0055C3D9 /* UIImageView.swift */; };
+		361B5EF7223DD7180055C3D9 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EF6223DD7180055C3D9 /* UIViewController.swift */; };
+		361B5EF9223DE13B0055C3D9 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EF8223DE13B0055C3D9 /* UITableView.swift */; };
+		361B5EFB223DE16C0055C3D9 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EFA223DE16C0055C3D9 /* UIAlertController.swift */; };
 		363C78A8223D58E30061EE3A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C78A7223D58E30061EE3A /* NetworkService.swift */; };
 		36C17A3A223C426500BF5C71 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A39223C426500BF5C71 /* CustomTableViewCell.swift */; };
-		36C17A3C223C4B3B00BF5C71 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A3B223C4B3B00BF5C71 /* Model.swift */; };
-		36C17A3F223C5C2A00BF5C71 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A3E223C5C2A00BF5C71 /* UIViewExtension.swift */; };
+		36C17A3C223C4B3B00BF5C71 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A3B223C4B3B00BF5C71 /* Info.swift */; };
+		36C17A3F223C5C2A00BF5C71 /* UIView + AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A3E223C5C2A00BF5C71 /* UIView + AutoLayout.swift */; };
 		71E8B5121C8E2C3E00CA399F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8B5111C8E2C3E00CA399F /* AppDelegate.swift */; };
 		71E8B5141C8E2C3E00CA399F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8B5131C8E2C3E00CA399F /* ViewController.swift */; };
 		71E8B5191C8E2C3E00CA399F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E8B5181C8E2C3E00CA399F /* Assets.xcassets */; };
@@ -19,10 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361B5EEE223D620D0055C3D9 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		361B5EF6223DD7180055C3D9 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		361B5EF8223DE13B0055C3D9 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		361B5EFA223DE16C0055C3D9 /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		363C78A7223D58E30061EE3A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		36C17A39223C426500BF5C71 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		36C17A3B223C4B3B00BF5C71 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		36C17A3E223C5C2A00BF5C71 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		36C17A3B223C4B3B00BF5C71 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		36C17A3E223C5C2A00BF5C71 /* UIView + AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + AutoLayout.swift"; sourceTree = "<group>"; };
 		3DD3EBA8AF4F5F07F2C15B27 /* Pods_TakeHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53926913BABDD74C8C69D527 /* Pods-TakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeHome/Pods-TakeHome.debug.xcconfig"; sourceTree = "<group>"; };
 		71E8B50E1C8E2C3E00CA399F /* TakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,10 +55,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361B5EF0223DA51E0055C3D9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				363C78A7223D58E30061EE3A /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		361B5EF1223DADB80055C3D9 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				361B5EF2223DADC30055C3D9 /* Model */,
+				361B5EF3223DADCE0055C3D9 /* View */,
+				361B5EF4223DADD60055C3D9 /* Controller */,
+				361B5EF0223DA51E0055C3D9 /* Network */,
+				36C17A3D223C5AD100BF5C71 /* Extensions */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		361B5EF2223DADC30055C3D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36C17A3B223C4B3B00BF5C71 /* Info.swift */,
+				361B5EF5223DAFA80055C3D9 /* TableViewCell */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		361B5EF3223DADCE0055C3D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71E8B51A1C8E2C3E00CA399F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		361B5EF4223DADD60055C3D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71E8B5131C8E2C3E00CA399F /* ViewController.swift */,
+				71E8B5111C8E2C3E00CA399F /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		361B5EF5223DAFA80055C3D9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				36C17A39223C426500BF5C71 /* CustomTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		36C17A3D223C5AD100BF5C71 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				36C17A3E223C5C2A00BF5C71 /* UIViewExtension.swift */,
+				36C17A3E223C5C2A00BF5C71 /* UIView + AutoLayout.swift */,
+				361B5EEE223D620D0055C3D9 /* UIImageView.swift */,
+				361B5EF6223DD7180055C3D9 /* UIViewController.swift */,
+				361B5EF8223DE13B0055C3D9 /* UITableView.swift */,
+				361B5EFA223DE16C0055C3D9 /* UIAlertController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -77,14 +143,8 @@
 		71E8B5101C8E2C3E00CA399F /* TakeHome */ = {
 			isa = PBXGroup;
 			children = (
-				36C17A3D223C5AD100BF5C71 /* Extensions */,
-				71E8B5111C8E2C3E00CA399F /* AppDelegate.swift */,
-				363C78A7223D58E30061EE3A /* NetworkService.swift */,
-				36C17A39223C426500BF5C71 /* CustomTableViewCell.swift */,
-				36C17A3B223C4B3B00BF5C71 /* Model.swift */,
-				71E8B5131C8E2C3E00CA399F /* ViewController.swift */,
+				361B5EF1223DADB80055C3D9 /* Main Screen */,
 				71E8B5181C8E2C3E00CA399F /* Assets.xcassets */,
-				71E8B51A1C8E2C3E00CA399F /* LaunchScreen.storyboard */,
 				71E8B51D1C8E2C3E00CA399F /* Info.plist */,
 			);
 			path = TakeHome;
@@ -141,6 +201,7 @@
 				TargetAttributes = {
 					71E8B50D1C8E2C3E00CA399F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2WCCWSFG99;
 						LastSwiftMigration = 0820;
 					};
 				};
@@ -202,11 +263,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TakeHome/Pods-TakeHome-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,12 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C17A3F223C5C2A00BF5C71 /* UIViewExtension.swift in Sources */,
+				36C17A3F223C5C2A00BF5C71 /* UIView + AutoLayout.swift in Sources */,
+				361B5EEF223D620D0055C3D9 /* UIImageView.swift in Sources */,
 				36C17A3A223C426500BF5C71 /* CustomTableViewCell.swift in Sources */,
 				71E8B5141C8E2C3E00CA399F /* ViewController.swift in Sources */,
+				361B5EFB223DE16C0055C3D9 /* UIAlertController.swift in Sources */,
 				71E8B5121C8E2C3E00CA399F /* AppDelegate.swift in Sources */,
+				361B5EF9223DE13B0055C3D9 /* UITableView.swift in Sources */,
 				363C78A8223D58E30061EE3A /* NetworkService.swift in Sources */,
-				36C17A3C223C4B3B00BF5C71 /* Model.swift in Sources */,
+				361B5EF7223DD7180055C3D9 /* UIViewController.swift in Sources */,
+				36C17A3C223C4B3B00BF5C71 /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +399,7 @@
 			baseConfigurationReference = 53926913BABDD74C8C69D527 /* Pods-TakeHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WCCWSFG99;
 				INFOPLIST_FILE = TakeHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ziprealty.TakeHome;
@@ -345,6 +413,7 @@
 			baseConfigurationReference = ABD8A6B2DF36376BB4585479 /* Pods-TakeHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WCCWSFG99;
 				INFOPLIST_FILE = TakeHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ziprealty.TakeHome;

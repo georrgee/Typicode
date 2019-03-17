@@ -1,10 +1,8 @@
-//
 //  AppDelegate.swift
 //  TakeHome
-//
+
 //  Created by ZapLabs on 3/7/16.
 //  Copyright © 2018 ZipRealty. All rights reserved.
-//
 
 import UIKit
 

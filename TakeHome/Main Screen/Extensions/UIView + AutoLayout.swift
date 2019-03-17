@@ -1,6 +1,5 @@
-//  UIViewExtension.swift
+//  UIView + AutoLayout.swift
 //  TakeHome
-//
 //  Created by George Garcia on 3/15/19.
 //  Copyright © 2019 ZipRealty. All rights reserved.
 
@@ -9,7 +8,6 @@ import UIKit
 extension UIView {
     
     // MARK: AutoLayout
-    
     func setAnchor(top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?,bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?,
                    paddingTop: CGFloat, paddingLeft: CGFloat, paddingBottom: CGFloat, paddingRight: CGFloat, width: CGFloat = 0, height: CGFloat = 0) {
         
