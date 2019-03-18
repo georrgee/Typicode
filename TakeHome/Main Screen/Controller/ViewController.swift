@@ -59,6 +59,7 @@ extension ViewController {
         tableView.delegate          = self
         tableView.dataSource        = self
         tableView.allowsSelection   = false
+        tableView.separatorInset    = UIEdgeInsetsMake(0, 125, 0, 0)
         
         tableView.register(CustomTableViewCell.self, forCellReuseIdentifier: "Cell")
         self.view.addSubview(tableView) // add this tableview to the view controller
