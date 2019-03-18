@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +20,26 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="json_logo" translatesAutoresizingMaskIntoConstraints="NO" id="eHw-oZ-OfK">
+                                <rect key="frame" x="137" y="198" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Typicode" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="Ytq-g6-EDo">
+                                <rect key="frame" x="145" y="319" width="85" height="29"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eHw-oZ-OfK" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="178" id="7t7-QJ-wee"/>
+                            <constraint firstItem="eHw-oZ-OfK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="137" id="BtM-Kf-BPq"/>
+                            <constraint firstItem="Ytq-g6-EDo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="E0E-HL-zY7"/>
+                            <constraint firstAttribute="trailing" secondItem="eHw-oZ-OfK" secondAttribute="trailing" constant="138" id="EEV-H6-0mC"/>
+                            <constraint firstItem="Ytq-g6-EDo" firstAttribute="top" secondItem="eHw-oZ-OfK" secondAttribute="bottom" constant="21" id="Smd-lu-iz7"/>
+                            <constraint firstItem="Ytq-g6-EDo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="neg-Vt-DN4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -28,4 +47,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="json_logo" width="512" height="512"/>
+    </resources>
 </document>
