@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		361B5EEF223D620D0055C3D9 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EEE223D620D0055C3D9 /* UIImageView.swift */; };
-		361B5EF7223DD7180055C3D9 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EF6223DD7180055C3D9 /* UIViewController.swift */; };
-		361B5EF9223DE13B0055C3D9 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EF8223DE13B0055C3D9 /* UITableView.swift */; };
+		361B5EF9223DE13B0055C3D9 /* ViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EF8223DE13B0055C3D9 /* ViewController+UITableView.swift */; };
 		361B5EFB223DE16C0055C3D9 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B5EFA223DE16C0055C3D9 /* UIAlertController.swift */; };
 		363C78A8223D58E30061EE3A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C78A7223D58E30061EE3A /* NetworkService.swift */; };
 		36C17A3A223C426500BF5C71 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A39223C426500BF5C71 /* CustomTableViewCell.swift */; };
 		36C17A3C223C4B3B00BF5C71 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A3B223C4B3B00BF5C71 /* Info.swift */; };
-		36C17A3F223C5C2A00BF5C71 /* UIView + AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A3E223C5C2A00BF5C71 /* UIView + AutoLayout.swift */; };
+		36C17A3F223C5C2A00BF5C71 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C17A3E223C5C2A00BF5C71 /* UIView+AutoLayout.swift */; };
 		71E8B5121C8E2C3E00CA399F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8B5111C8E2C3E00CA399F /* AppDelegate.swift */; };
 		71E8B5141C8E2C3E00CA399F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8B5131C8E2C3E00CA399F /* ViewController.swift */; };
 		71E8B5191C8E2C3E00CA399F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E8B5181C8E2C3E00CA399F /* Assets.xcassets */; };
@@ -24,13 +23,12 @@
 
 /* Begin PBXFileReference section */
 		361B5EEE223D620D0055C3D9 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
-		361B5EF6223DD7180055C3D9 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		361B5EF8223DE13B0055C3D9 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		361B5EF8223DE13B0055C3D9 /* ViewController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UITableView.swift"; sourceTree = "<group>"; };
 		361B5EFA223DE16C0055C3D9 /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		363C78A7223D58E30061EE3A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		36C17A39223C426500BF5C71 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		36C17A3B223C4B3B00BF5C71 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
-		36C17A3E223C5C2A00BF5C71 /* UIView + AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + AutoLayout.swift"; sourceTree = "<group>"; };
+		36C17A3E223C5C2A00BF5C71 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
 		3DD3EBA8AF4F5F07F2C15B27 /* Pods_TakeHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53926913BABDD74C8C69D527 /* Pods-TakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeHome/Pods-TakeHome.debug.xcconfig"; sourceTree = "<group>"; };
 		71E8B50E1C8E2C3E00CA399F /* TakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				71E8B5131C8E2C3E00CA399F /* ViewController.swift */,
-				71E8B5111C8E2C3E00CA399F /* AppDelegate.swift */,
+				361B5EF8223DE13B0055C3D9 /* ViewController+UITableView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -112,10 +110,8 @@
 		36C17A3D223C5AD100BF5C71 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				36C17A3E223C5C2A00BF5C71 /* UIView + AutoLayout.swift */,
+				36C17A3E223C5C2A00BF5C71 /* UIView+AutoLayout.swift */,
 				361B5EEE223D620D0055C3D9 /* UIImageView.swift */,
-				361B5EF6223DD7180055C3D9 /* UIViewController.swift */,
-				361B5EF8223DE13B0055C3D9 /* UITableView.swift */,
 				361B5EFA223DE16C0055C3D9 /* UIAlertController.swift */,
 			);
 			path = Extensions;
@@ -145,6 +141,7 @@
 			children = (
 				361B5EF1223DADB80055C3D9 /* Main Screen */,
 				71E8B5181C8E2C3E00CA399F /* Assets.xcassets */,
+				71E8B5111C8E2C3E00CA399F /* AppDelegate.swift */,
 				71E8B51D1C8E2C3E00CA399F /* Info.plist */,
 			);
 			path = TakeHome;
@@ -284,15 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C17A3F223C5C2A00BF5C71 /* UIView + AutoLayout.swift in Sources */,
+				36C17A3F223C5C2A00BF5C71 /* UIView+AutoLayout.swift in Sources */,
 				361B5EEF223D620D0055C3D9 /* UIImageView.swift in Sources */,
 				36C17A3A223C426500BF5C71 /* CustomTableViewCell.swift in Sources */,
 				71E8B5141C8E2C3E00CA399F /* ViewController.swift in Sources */,
 				361B5EFB223DE16C0055C3D9 /* UIAlertController.swift in Sources */,
 				71E8B5121C8E2C3E00CA399F /* AppDelegate.swift in Sources */,
-				361B5EF9223DE13B0055C3D9 /* UITableView.swift in Sources */,
+				361B5EF9223DE13B0055C3D9 /* ViewController+UITableView.swift in Sources */,
 				363C78A8223D58E30061EE3A /* NetworkService.swift in Sources */,
-				361B5EF7223DD7180055C3D9 /* UIViewController.swift in Sources */,
 				36C17A3C223C4B3B00BF5C71 /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

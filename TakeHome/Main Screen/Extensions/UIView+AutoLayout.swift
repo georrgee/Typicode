@@ -1,5 +1,6 @@
-//  UIView + AutoLayout.swift
+//  UIView+AutoLayout.swift
 //  TakeHome
+
 //  Created by George Garcia on 3/15/19.
 //  Copyright © 2019 ZipRealty. All rights reserved.
 
@@ -68,3 +69,9 @@ extension UIView {
         return topAnchor
     }
 }
+
+// MARK: - Notes
+/*
+    1) Using this link can definitely help us to fix any AutoLayout issues
+        https://www.wtfautolayout.com/
+*/

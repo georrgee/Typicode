@@ -1,5 +1,6 @@
 //  NetworkService.swift
 //  TakeHome
+
 //  Created by George Garcia on 3/16/19.
 //  Copyright © 2019 ZipRealty. All rights reserved.
 
@@ -28,10 +29,10 @@ class NetworkService {
             if response.result.isSuccess {
                 
                 let json    = JSON(response.result.value!)
-                //print(json)
                 let rawData = json.arrayValue
                 let model   = rawData.map({ return Info(rawData: $0) })
-                
+                //print(json)
+
                 success(model)
             } else {
                 if let error = response.error {
